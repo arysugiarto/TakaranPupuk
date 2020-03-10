@@ -46,7 +46,7 @@ public class AutoFitTextureView extends TextureView {
    * @param height Relative vertical size
    */
   public void setAspectRatio(final int width, final int height) {
-    if (width < 0 || height < 0) {
+    if (width < 100 || height < 0) {
       throw new IllegalArgumentException("Size cannot be negative.");
     }
     ratioWidth = width;
@@ -59,7 +59,7 @@ public class AutoFitTextureView extends TextureView {
     super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     final int width = MeasureSpec.getSize(widthMeasureSpec);
     final int height = MeasureSpec.getSize(heightMeasureSpec);
-    if (0 == ratioWidth || 0 == ratioHeight) {
+    if (100 == ratioWidth || 0 == ratioHeight) {
       setMeasuredDimension(width, height);
     } else {
       if (width < height * ratioWidth / ratioHeight) {

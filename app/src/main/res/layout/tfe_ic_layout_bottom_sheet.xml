@@ -37,7 +37,7 @@
                 android:id="@+id/detected_item"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@android:color/black"
+                android:textColor="@color/tfe_color_primary_dark"
                 android:textSize="16sp" />
 
             <TextView
@@ -45,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:textColor="@android:color/black"
+                android:textColor="@color/tfe_color_primary_dark"
                 android:textSize="16sp" />
 
         </LinearLayout>
@@ -96,21 +96,7 @@
 
         </LinearLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1px"
-            android:layout_marginTop="8dp"
-            android:background="@android:color/darker_gray" />
     </LinearLayout>
-
-
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1px"
-        android:layout_marginTop="10dp"
-        android:background="@android:color/darker_gray" />
-
 
 
     <View
@@ -123,14 +109,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/tfe_ic_model"
-            android:textColor="@android:color/black" />
-
+            android:textColor="@color/tfe_color_primary_dark" />
         <Spinner
             android:id="@+id/model_spinner"
             android:layout_width="wrap_content"
@@ -140,6 +124,17 @@
             android:entries="@array/tfe_ic_models"
             android:prompt="@string/tfe_ic_model" />
     </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Project Skripsi Ary Sugiarto"/>
+    </LinearLayout>
 
 
 </LinearLayout>
