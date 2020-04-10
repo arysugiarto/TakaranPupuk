@@ -1,5 +1,4 @@
-daisy
-dandelion
-roses
-sunflowers
-tulips
+Hijau_1
+Hijau_2
+Hijau_3
+Hijau_4
