@@ -27,7 +27,6 @@ import android.view.View;
 import java.io.IOException;
 import java.util.List;
 
-
 import arysugiarto10.project.skripsi.takaranpupuk.env.BorderedText;
 import arysugiarto10.project.skripsi.takaranpupuk.env.Logger;
 import arysugiarto10.project.skripsi.takaranpupuk.tflite.Classifier;
