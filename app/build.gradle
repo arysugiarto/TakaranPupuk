@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "org.tensorflow.lite.examples.classification"
+        applicationId "arysugiarto10.project.skripsi.takaranpupuk"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -39,4 +39,5 @@ dependencies {
     implementation 'org.tensorflow:tensorflow-lite-gpu:0.0.0-nightly'
     implementation 'org.tensorflow:tensorflow-lite-support:0.0.0-nightly'
 
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 }
